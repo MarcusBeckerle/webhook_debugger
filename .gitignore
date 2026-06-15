@@ -1,0 +1,14 @@
+# Server secret — never commit
+/tmp/server.secret
+/tmp/server.secret.php
+
+# Runtime vault and rate-limit data
+/tmp/vaults/*
+/tmp/ratelimit/*
+
+# Preserve directory stubs for deployment
+!/tmp/vaults/.gitkeep
+!/tmp/ratelimit/.gitkeep
+
+# Unused / removed feature
+/download/
